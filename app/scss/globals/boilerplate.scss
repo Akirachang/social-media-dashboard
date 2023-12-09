@@ -1,0 +1,16 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box; //fixes the div to the size of the width(https://www.w3schools.com/css/css3_box-sizing.asp)
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; //for more information on after, before(https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-inter);
+}
