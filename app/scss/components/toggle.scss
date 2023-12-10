@@ -1,6 +1,28 @@
-// @use "../global" as *;
+@use "../util" as *;
+//code source: https://codepen.io/SaraSoueidan/pen/jpBbrq/
 
 .toggle {
+  border: none;
+  &__wrapper {
+    height: rem(24);
+  }
+
+  input[type="radio"] {
+    opacity: 0;
+  }
+
+  &__background {
+    height: 100%;
+    display: block;
+    border-radius: rem(12);
+    overflow: hidden;
+    background: linear-gradient(
+      225deg,
+      var(--toggle-start) 0%,
+      var(--toggle-end) 98%
+    );
+  }
+
   &__button {
     width: rem(16);
     height: rem(16);

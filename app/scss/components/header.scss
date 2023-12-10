@@ -1,0 +1,25 @@
+@use "../util" as *;
+
+.header {
+  @include breakpoint(large) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__wrapper {
+  }
+  input[type="radio"] {
+    opacity: 0;
+  }
+  &__background {
+  }
+  &__title {
+  }
+  &__toggle {
+  }
+  &__subtitle {
+    font-size: rem(14);
+    font-weight: 700;
+    color: var(--dark-text1);
+  }
+}
