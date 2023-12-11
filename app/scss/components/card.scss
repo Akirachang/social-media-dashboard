@@ -21,9 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: rem(28);
   }
 
   &__icon {
+    margin-right: rem(8);
     &--facebook {
     }
     &--twitter {
@@ -35,18 +37,46 @@
   }
 
   &__username {
+    font-size: rem(12);
+    font-weight: bold;
   }
 
   &__count {
+    color: var(--light-bg);
+    font-weight: bold;
+    letter-spacing: rem(-2);
+    line-height: 1;
+    margin-bottom: rem(4);
     &--big {
+      font-size: rem(56);
     }
     &--small {
     }
   }
+  &__label {
+    font-size: rem(12);
+    color: var(--dark-text1);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  &__followers {
+    margin-bottom: rem(25);
+  }
   &__change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem(12);
+    font-weight: bold;
     &--up {
+      color: var(--limegreen);
     }
     &--down {
+      color: var(--brightred);
+    }
+    &__number {
+      margin-left: rem(5);
     }
   }
 }
