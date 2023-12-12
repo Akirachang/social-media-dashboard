@@ -1,2 +1,2 @@
-"use strict";console.log("hello world***");
+"use strict";for(var radioButtons=document.querySelectorAll(".toggle__wrapper input"),i=0;i<radioButtons.length;i++)radioButtons[i].addEventListener("click",(function(t){var e=document.querySelector("body");document.getElementById("dark").checked?(e.classList.add("dark"),e.classList.remove("light")):(e.classList.add("light"),e.classList.remove("dark"))}));
 //# sourceMappingURL=script.js.map
