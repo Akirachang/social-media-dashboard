@@ -24,6 +24,11 @@
   position: relative;
   overflow: hidden;
 
+  &:hover {
+    background: var(--dark-card-hover);
+    transition: background 150ms ease-in-out;
+    cursor: pointer; //turns the cursor to a hand when hovering
+  }
   &--facebook {
     border-top: rem(5) solid var(--facebook);
   }
