@@ -58,6 +58,10 @@
     margin-bottom: rem(28);
     height: rem(20);
   }
+  &__subtitle {
+    font-size: rem(14);
+    font-weight: 700;
+  }
 
   &__icon {
     margin-right: rem(8);
@@ -86,6 +90,7 @@
       font-size: rem(56);
     }
     &--small {
+      font-size: rem(32);
     }
   }
   &__label {

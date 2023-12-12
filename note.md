@@ -16,3 +16,6 @@ Accessibility
 
 Use correct heading tags
 Screenreader-only text for card titles/username -- https://www.accessibility-developer-guide.com/examples/hiding-elements/visually/
+
+environment configuration terminal command: npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss
+gulp-sass gulp-terser
