@@ -15,8 +15,8 @@
   }
 }
 .card {
-  background: var(--dark-card);
-  color: var(--dark-text1);
+  background: var(--card-bg);
+  color: var(--text-color);
   flex: 1;
   text-align: center;
   padding: rem(25);
@@ -25,7 +25,7 @@
   overflow: hidden;
 
   &:hover {
-    background: var(--dark-card-hover);
+    background: var(--card-hover);
     transition: background 150ms ease-in-out;
     cursor: pointer; //turns the cursor to a hand when hovering
   }
@@ -86,7 +86,7 @@
   }
 
   &__count {
-    color: var(--light-bg);
+    color: var(--text-color);
     font-weight: bold;
     letter-spacing: rem(-2);
     line-height: 1;
