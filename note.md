@@ -19,3 +19,5 @@ Screenreader-only text for card titles/username -- https://www.accessibility-dev
 
 environment configuration terminal command: npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss
 gulp-sass gulp-terser
+
+**_Add the tag "defer" in the script tag in index.html so that the script will read the document once the html page is ran_**
